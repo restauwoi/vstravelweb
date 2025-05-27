@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Travel Sekarang - VSTravel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo" href="index.html"> VSTravel </a>
+        <nav>
+          <ul class="nav-list desktop-nav">
+            <li>
+              <a href="index.html"> Home </a>
+            </li>
+            <li>
+              <a href="destination.html"> Destinasi </a>
+            </li>
+            <li>
+              <a href="about.html"> Tentang Kami </a>
+            </li>
+            <li>
+              <a href="contact.html"> Kontak </a>
+            </li>
+            <li>
+              <a href="travel.html"> Travel Sekarang </a>
+            </li>
+          </ul>
+          <button
+            aria-label="Toggle navigation menu"
+            class="nav-toggle"
+            id="nav-toggle"
+          >
+            <i class="fas fa-bars fa-lg"> </i>
+          </button>
+        </nav>
+      </div>
+      <div class="mobile-menu hidden" id="mobile-menu">
+        <ul class="mobile-nav-list">
+          <li>
+            <a href="index.html"> Home </a>
+          </li>
+          <li>
+            <a href="destination.html"> Destinasi </a>
+          </li>
+          <li>
+            <a href="about.html"> Tentang Kami </a>
+          </li>
+          <li>
+            <a href="contact.html"> Kontak </a>
+          </li>
+          <li>
+            <a href="travel.html"> Travel Sekarang </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="hero-short-page">
+        <div class="hero-content-short container">
+          <h1 class="hero-title-short">Rencanakan Perjalanan Impian Anda</h1>
+          <p class="hero-subtitle-short">
+            Isi formulir di bawah ini untuk memulai petualangan Anda bersama
+            VSTravel. Tim kami akan segera menghubungi Anda!
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-form-section">
+        <div class="container">
+          <h2 class="section-title">Formulir Pemesanan Perjalanan</h2>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="nama_lengkap">Nama Lengkap</label>
+              <input
+                type="text"
+                id="nama_lengkap"
+                name="nama_lengkap"
+                placeholder="Masukkan nama lengkap Anda"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Masukkan email Anda"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="telepon">Nomor Telepon</label>
+              <input
+                type="text"
+                id="telepon"
+                name="telepon"
+                placeholder="Masukkan nomor telepon Anda"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="destinasi">Destinasi Pilihan</label>
+              <input
+                type="text"
+                id="destinasi"
+                name="destinasi"
+                placeholder="Contoh: Bali, Labuan Bajo, Jepang"
+              />
+            </div>
+            <div class="form-group">
+              <label for="tanggal_keberangkatan">Tanggal Keberangkatan</label>
+              <input
+                type="date"
+                id="tanggal_keberangkatan"
+                name="tanggal_keberangkatan"
+              />
+            </div>
+            <div class="form-group">
+              <label for="jumlah_peserta">Jumlah Peserta</label>
+              <input
+                type="number"
+                id="jumlah_peserta"
+                name="jumlah_peserta"
+                min="1"
+                value="1"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="pesan">Pesan Tambahan (Opsional)</label>
+              <textarea
+                id="pesan"
+                name="pesan"
+                rows="5"
+                placeholder="Sampaikan preferensi atau pertanyaan khusus Anda di sini..."
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-button">
+              Kirim Permintaan
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="faq-section">
+        <div class="container">
+          <h2 class="section-title">Pertanyaan Umum Seputar Pemesanan</h2>
+          <div class="faq-list">
+            <div class="faq-item">
+              <h3 class="faq-question">
+                Bagaimana cara kerja proses pemesanan?
+                <span class="faq-toggle-icon"
+                  ><i class="fas fa-chevron-down"></i
+                ></span>
+              </h3>
+              <div class="faq-answer hidden">
+                Setelah Anda mengisi formulir, tim kami akan meninjau permintaan
+                Anda dan menghubungi Anda dalam waktu 24 jam untuk mendiskusikan
+                detail lebih lanjut dan menawarkan paket yang sesuai.
+              </div>
+            </div>
+            <div class="faq-item">
+              <h3 class="faq-question">
+                Apakah saya bisa menyesuaikan paket perjalanan?
+                <span class="faq-toggle-icon"
+                  ><i class="fas fa-chevron-down"></i
+                ></span>
+              </h3>
+              <div class="faq-answer hidden">
+                Ya, VSTravel menawarkan itinerary yang fleksibel dan paket
+                perjalanan yang dapat disesuaikan dengan preferensi serta jadwal
+                Anda.
+              </div>
+            </div>
+            <div class="faq-item">
+              <h3 class="faq-question">
+                Metode pembayaran apa saja yang diterima?
+                <span class="faq-toggle-icon"
+                  ><i class="fas fa-chevron-down"></i
+                ></span>
+              </h3>
+              <div class="faq-answer hidden">
+                Kami menerima berbagai metode pembayaran termasuk transfer bank,
+                kartu kredit, dan pembayaran melalui platform digital. Detail
+                lebih lanjut akan diberikan setelah konfirmasi pemesanan.
+              </div>
+            </div>
+            <div class="faq-item">
+              <h3 class="faq-question">
+                Apakah ada biaya tersembunyi?
+                <span class="faq-toggle-icon"
+                  ><i class="fas fa-chevron-down"></i
+                ></span>
+              </h3>
+              <div class="faq-answer hidden">
+                Tidak, kami berkomitmen untuk transparansi. Semua biaya akan
+                dijelaskan secara rinci di awal dan tidak ada biaya tersembunyi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-info">
+          <h3 class="footer-title">VSTravel</h3>
+          <p class="footer-text">
+            © 2025 VSTravel. All rights reserved. Agen perjalanan terpercaya di
+            Indonesia.
+          </p>
+        </div>
+        <div class="social-icons">
+          <a aria-label="Facebook" href="#">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+          <a aria-label="Twitter" href="#">
+            <i class="fab fa-twitter"> </i>
+          </a>
+          <a aria-label="Instagram" href="#">
+            <i class="fab fa-instagram"> </i>
+          </a>
+          <a aria-label="LinkedIn" href="#">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

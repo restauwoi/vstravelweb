@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>VSTravel - Kontak Kami</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo" href="index.html"> VSTravel </a>
+        <nav>
+          <ul class="nav-list desktop-nav">
+            <li>
+              <a href="index.html"> Home </a>
+            </li>
+            <li>
+              <a href="destination.html"> Destinasi </a>
+            </li>
+            <li>
+              <a href="about.html"> Tentang Kami </a>
+            </li>
+            <li>
+              <a href="contact.html"> Kontak </a>
+            </li>
+            <li>
+              <a href="travel.html"> Travel Sekarang </a>
+            </li>
+          </ul>
+          <button
+            aria-label="Toggle navigation menu"
+            class="nav-toggle"
+            id="nav-toggle"
+          >
+            <i class="fas fa-bars fa-lg"> </i>
+          </button>
+        </nav>
+      </div>
+      <div class="mobile-menu hidden" id="mobile-menu">
+        <ul class="mobile-nav-list">
+          <li>
+            <a href="index.html"> Home </a>
+          </li>
+          <li>
+            <a href="destination.html"> Destinasi </a>
+          </li>
+          <li>
+            <a href="about.html"> Tentang Kami </a>
+          </li>
+          <li>
+            <a href="contact.html"> Kontak </a>
+          </li>
+          <li>
+            <a href="travel.html"> Travel Sekarang </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="hero-short-page">
+        <div class="hero-content-short container">
+          <h1 class="hero-title-short">Kontak Kami</h1>
+          <p class="hero-subtitle-short">
+            Kami siap membantu Anda merencanakan perjalanan impian Anda. Hubungi
+            kami melalui informasi di bawah ini.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-info-section container">
+        <h2 class="section-title">Informasi Kontak</h2>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <i class="fas fa-map-marker-alt contact-icon"></i>
+            <h3>Alamat Kami</h3>
+            <p>Jl. Pariwisata Indah No. 123, Jakarta, Indonesia</p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-phone-alt contact-icon"></i>
+            <h3>Telepon</h3>
+            <p>+62 21 1234 5678</p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-envelope contact-icon"></i>
+            <h3>Email</h3>
+            <p>info@vstravel.com</p>
+          </div>
+          <div class="contact-card">
+            <i class="fab fa-whatsapp contact-icon"></i>
+            <h3>WhatsApp</h3>
+            <p>+62 812 3456 7890</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form-section">
+        <div class="container">
+          <h2 class="section-title">Kirim Pesan Kepada Kami</h2>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Anda</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subjek</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan Anda</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-button">Kirim Pesan</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-info">
+          <h3 class="footer-title">VSTravel</h3>
+          <p class="footer-text">
+            © 2025 VSTravel. All rights reserved. Agen perjalanan terpercaya di
+            Indonesia.
+          </p>
+        </div>
+        <div class="social-icons">
+          <a aria-label="Facebook" href="#">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+          <a aria-label="Twitter" href="#">
+            <i class="fab fa-twitter"> </i>
+          </a>
+          <a aria-label="Instagram" href="#">
+            <i class="fab fa-instagram"> </i>
+          </a>
+          <a aria-label="LinkedIn" href="#">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

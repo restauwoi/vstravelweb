@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>VSTravel - Agen Perjalanan Terpercaya</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo" href="index.html"> VSTravel </a>
+        <nav>
+          <ul class="nav-list desktop-nav">
+            <li>
+              <a href="index.html"> Home </a>
+            </li>
+            <li>
+              <a href="destination.html"> Destinasi </a>
+            </li>
+            <li>
+              <a href="about.html"> Tentang Kami </a>
+            </li>
+            <li>
+              <a href="contact.html"> Kontak </a>
+            </li>
+            <li>
+              <a href="travel.html"> Travel Sekarang </a>
+            </li>
+          </ul>
+          <button
+            aria-label="Toggle navigation menu"
+            class="nav-toggle"
+            id="nav-toggle"
+          >
+            <i class="fas fa-bars fa-lg"> </i>
+          </button>
+        </nav>
+      </div>
+      <div class="mobile-menu hidden" id="mobile-menu">
+        <ul class="mobile-nav-list">
+          <li>
+            <a href="index.html"> Home </a>
+          </li>
+          <li>
+            <a href="destination.html"> Destinasi </a>
+          </li>
+          <li>
+            <a href="about.html"> Tentang Kami </a>
+          </li>
+          <li>
+            <a href="contact.html"> Kontak </a>
+          </li>
+          <li>
+            <a href="travel.html"> Travel Sekarang </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="hero-full-width">
+        <div class="hero-content container">
+          <div class="hero-text-area">
+            <h1 class="hero-title">Jelajahi Dunia, Ciptakan Kenangan Indah</h1>
+            <p class="hero-subtitle">
+              Bersama VSTravel, kami menyediakan pengalaman perjalanan terbaik
+              dan terpercaya untuk Anda dan keluarga. Temukan destinasi impian
+              Anda dengan layanan profesional kami.
+            </p>
+            <a href="travel.html" class="hero-button"
+              >Pesan Perjalanan Anda Sekarang!</a
+            >
+          </div>
+          <div class="hero-image-carousel">
+            <div class="carousel-track" id="carouselTrack">
+              <img
+                src="https://storage.googleapis.com/a1aa/image/86f129e1-afc7-4651-7009-b415128a4ae5.jpg"
+                alt="Pantai Kuta Bali"
+                class="carousel-image"
+              />
+              <img
+                src="https://storage.googleapis.com/a1aa/image/73bbb062-0629-4f61-128d-729d7ed68783.jpg"
+                alt="Danau Toba Sumatera Utara"
+                class="carousel-image"
+              />
+              <img
+                src="https://storage.googleapis.com/a1aa/image/d973dbd6-0989-489d-2faf-701c68def365.jpg"
+                alt="Gunung Bromo Jawa Timur"
+                class="carousel-image"
+              />
+              <img
+                src="https://storage.googleapis.com/a1aa/image/93c35309-b047-4531-f567-19af3ed52b54.jpg"
+                alt="Raja Ampat Papua Barat"
+                class="carousel-image"
+              />
+              <img
+                src="https://storage.googleapis.com/a1aa/image/8a2ba9a9-534e-4591-18e5-6cec7bf4e3e5.jpg"
+                alt="Yogyakarta DI Yogyakarta"
+                class="carousel-image"
+              />
+              <img
+                src="https://storage.googleapis.com/a1aa/image/9bab0242-d3ca-40a0-e593-98727bfbc378.jpg"
+                alt="Labuan Bajo Nusa Tenggara Timur"
+                class="carousel-image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-us-brief container">
+        <h2 class="section-title">Tentang VSTravel</h2>
+        <p class="about-text">
+          VSTravel adalah agen perjalanan terkemuka di Indonesia yang telah
+          melayani ribuan pelanggan dengan berbagai paket wisata domestik dan
+          internasional. Kami berkomitmen memberikan pelayanan terbaik dengan
+          harga kompetitif dan pengalaman yang tak terlupakan. Dengan jaringan
+          luas dan tim profesional, kami siap membantu Anda merencanakan
+          perjalanan impian dengan mudah dan nyaman.
+        </p>
+      </section>
+
+      <section class="video-section">
+        <div class="container">
+          <h2 class="section-title">Lihatlah Petualangan Kami!</h2>
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=i_W8xN6R2eN_n6Y9"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <p class="video-caption">
+            Saksikan cuplikan keindahan destinasi yang bisa Anda jelajahi
+            bersama VSTravel.
+          </p>
+        </div>
+      </section>
+
+      <section class="why-choose-us-section">
+        <div class="container">
+          <h2 class="section-title">Kenapa Memilih Kami?</h2>
+          <div class="features-grid">
+            <div class="feature-card">
+              <i class="fas fa-hand-holding-usd feature-icon"></i>
+              <h3>Harga Kompetitif</h3>
+              <p>
+                Nikmati paket perjalanan terbaik dengan harga yang bersahabat
+                tanpa mengurangi kualitas pengalaman Anda.
+              </p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-headset feature-icon"></i>
+              <h3>Layanan Pelanggan 24/7</h3>
+              <p>
+                Tim kami siap membantu Anda kapan saja, memastikan perjalanan
+                Anda berjalan lancar dari awal hingga akhir.
+              </p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-star feature-icon"></i>
+              <h3>Destinasi Pilihan</h3>
+              <p>
+                Pilihan destinasi populer dan tersembunyi yang telah terkurasi
+                untuk pengalaman tak terlupakan.
+              </p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-shield-alt feature-icon"></i>
+              <h3>Keamanan Terjamin</h3>
+              <p>
+                Prioritas utama kami adalah keamanan dan kenyamanan Anda selama
+                perjalanan.
+              </p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-route feature-icon"></i>
+              <h3>Itinerary Fleksibel</h3>
+              <p>
+                Paket perjalanan yang dapat disesuaikan dengan preferensi dan
+                jadwal Anda.
+              </p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-smile-beam feature-icon"></i>
+              <h3>Pengalaman Tak Terlupakan</h3>
+              <p>
+                Kami berjanji untuk menciptakan kenangan indah yang akan Anda
+                hargai selamanya.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular-destinations container">
+        <h2 class="section-title">Destinasi Terpopuler Bulan Ini</h2>
+        <div class="destination-grid">
+          <article class="destination-card">
+            <img
+              alt="Pantai Kuta Bali dengan pasir putih dan ombak biru jernih di bawah langit cerah"
+              class="destination-image"
+              height="400"
+              src="https://storage.googleapis.com/a1aa/image/86f129e1-afc7-4651-7009-b415128a4ae5.jpg"
+              width="600"
+            />
+            <div class="destination-info">
+              <h3 class="destination-name">Pantai Kuta</h3>
+              <p class="destination-location">Bali</p>
+              <p class="destination-description">
+                Pantai Kuta terkenal dengan pasir putihnya yang lembut dan ombak
+                yang cocok untuk berselancar. Tempat yang sempurna untuk
+                menikmati matahari terbenam.
+              </p>
+              <a href="#" class="detail-button">Detail Selengkapnya ></a>
+            </div>
+          </article>
+          <article class="destination-card">
+            <img
+              alt="Pemandangan Danau Toba yang luas dengan pulau Samosir di tengah dan pegunungan hijau di sekelilingnya"
+              class="destination-image"
+              height="400"
+              src="https://storage.googleapis.com/a1aa/image/73bbb062-0629-4f61-128d-729d7ed68783.jpg"
+              width="600"
+            />
+            <div class="destination-info">
+              <h3 class="destination-name">Danau Toba</h3>
+              <p class="destination-location">Sumatera Utara</p>
+              <p class="destination-description">
+                Danau vulkanik terbesar di dunia yang menawarkan pemandangan
+                menakjubkan dan budaya Batak yang kaya. Cocok untuk relaksasi
+                dan petualangan.
+              </p>
+              <a href="#" class="detail-button">Detail Selengkapnya ></a>
+            </div>
+          </article>
+          <article class="destination-card">
+            <img
+              alt="Gunung Bromo dengan lautan pasir dan kabut pagi hari yang dramatis di Jawa Timur"
+              class="destination-image"
+              height="400"
+              src="https://storage.googleapis.com/a1aa/image/d973dbd6-0989-489d-2faf-701c68def365.jpg"
+              width="600"
+            />
+            <div class="destination-info">
+              <h3 class="destination-name">Gunung Bromo</h3>
+              <p class="destination-location">Jawa Timur</p>
+              <p class="destination-description">
+                Gunung berapi aktif yang terkenal dengan pemandangan matahari
+                terbitnya yang spektakuler dan lautan pasir yang luas.
+              </p>
+              <a href="#" class="detail-button">Detail Selengkapnya ></a>
+            </div>
+          </article>
+          <article class="destination-card">
+            <img
+              alt="Pulau-pulau kecil di Raja Ampat dengan air laut biru jernih dan terumbu karang yang kaya"
+              class="destination-image"
+              height="400"
+              src="https://storage.googleapis.com/a1aa/image/93c35309-b047-4531-f567-19af3ed52b54.jpg"
+              width="600"
+            />
+            <div class="destination-info">
+              <h3 class="destination-name">Raja Ampat</h3>
+              <p class="destination-location">Papua Barat</p>
+              <p class="destination-description">
+                Surga bawah laut dengan keanekaragaman hayati laut yang luar
+                biasa, cocok untuk snorkeling dan diving.
+              </p>
+              <a href="#" class="detail-button">Detail Selengkapnya ></a>
+            </div>
+          </article>
+          <article class="destination-card">
+            <img
+              alt="Candi Prambanan di Yogyakarta dengan langit biru cerah dan taman hijau di sekitarnya"
+              class="destination-image"
+              height="400"
+              src="https://storage.googleapis.com/a1aa/image/8a2ba9a9-534e-4591-18e5-6cec7bf4e3e5.jpg"
+              width="600"
+            />
+            <div class="destination-info">
+              <h3 class="destination-name">Yogyakarta</h3>
+              <p class="destination-location">DI Yogyakarta</p>
+              <p class="destination-description">
+                Kota budaya dengan candi-candi bersejarah, seni tradisional, dan
+                kuliner khas yang menggoda.
+              </p>
+              <a href="#" class="detail-button">Detail Selengkapnya ></a>
+            </div>
+          </article>
+          <article class="destination-card">
+            <img
+              alt="Pemandangan laut dan perahu tradisional di Labuan Bajo dengan pulau-pulau kecil di kejauhan"
+              class="destination-image"
+              height="400"
+              src="https://storage.googleapis.com/a1aa/image/9bab0242-d3ca-40a0-e593-98727bfbc378.jpg"
+              width="600"
+            />
+            <div class="destination-info">
+              <h3 class="destination-name">Labuan Bajo</h3>
+              <p class="destination-location">Nusa Tenggara Timur</p>
+              <p class="destination-description">
+                Gerbang menuju Taman Nasional Komodo, terkenal dengan keindahan
+                alam dan satwa komodo yang langka.
+              </p>
+              <a href="#" class="detail-button">Detail Selengkapnya ></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonials-section">
+        <div class="container">
+          <h2 class="section-title">Apa Kata Pelanggan Kami?</h2>
+          <div class="testimonial-grid">
+            <div class="testimonial-card">
+              <p class="testimonial-text">
+                "Perjalanan ke Bali bersama VSTravel sangat luar biasa! Semuanya
+                terorganisir dengan baik dan stafnya sangat ramah. Pasti akan
+                menggunakan VSTravel lagi!"
+              </p>
+              <p class="testimonial-author">- Sarah P., Jakarta</p>
+            </div>
+            <div class="testimonial-card">
+              <p class="testimonial-text">
+                "Saya tidak pernah menyangka Danau Toba seindah itu. Terima
+                kasih VSTravel sudah mewujudkan impian saya. Pelayanannya top!"
+              </p>
+              <p class="testimonial-author">- Budi S., Surabaya</p>
+            </div>
+            <div class="testimonial-card">
+              <p class="testimonial-text">
+                "Paket liburan ke Bromo sangat memuaskan. Sunrise-nya
+                spectacular! Guide-nya juga sangat informatif."
+              </p>
+              <p class="testimonial-author">- Cinta L., Bandung</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="call-to-action-section">
+        <div class="container">
+          <h2 class="section-title cta-title">
+            Siap Untuk Petualangan Anda Selanjutnya?
+          </h2>
+          <p class="cta-subtitle">
+            Jangan tunda lagi! Rencanakan liburan impian Anda bersama VSTravel
+            dan ciptakan kenangan tak terlupakan.
+          </p>
+          <a href="travel.html" class="cta-button">Pesan Sekarang!</a>
+        </div>
+      </section>
+
+      <section class="packages-section">
+        <div class="container">
+          <h2 class="section-title">Paket Perjalanan Unggulan Kami</h2>
+          <div class="package-grid">
+            <article class="package-card">
+              <img
+                src="https://storage.googleapis.com/a1aa/image/86f129e1-afc7-4651-7009-b415128a4ae5.jpg"
+                alt="Paket Liburan Bali"
+                class="package-image"
+              />
+              <div class="package-info">
+                <h3 class="package-name">Paket Liburan Romantis Bali</h3>
+                <p class="package-duration">4 Hari 3 Malam</p>
+                <p class="package-price">Mulai dari Rp 3.500.000 / orang</p>
+                <ul class="package-features">
+                  <li><i class="fas fa-check-circle"></i> Hotel Bintang 4</li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Tur Harian Pilihan
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Makan Pagi & Malam
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Transportasi Nyaman
+                  </li>
+                </ul>
+                <a href="#" class="package-button">Lihat Detail Paket</a>
+              </div>
+            </article>
+            <article class="package-card">
+              <img
+                src="https://storage.googleapis.com/a1aa/image/d973dbd6-0989-489d-2faf-701c68def365.jpg"
+                alt="Paket Petualangan Bromo"
+                class="package-image"
+              />
+              <div class="package-info">
+                <h3 class="package-name">Petualangan Ekstrem Gunung Bromo</h3>
+                <p class="package-duration">3 Hari 2 Malam</p>
+                <p class="package-price">Mulai dari Rp 2.800.000 / orang</p>
+                <ul class="package-features">
+                  <li><i class="fas fa-check-circle"></i> Penginapan Lokal</li>
+                  <li><i class="fas fa-check-circle"></i> Jeep Bromo</li>
+                  <li><i class="fas fa-check-circle"></i> Pemandu Lokal</li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Tiket Masuk Wisata
+                  </li>
+                </ul>
+                <a href="#" class="package-button">Lihat Detail Paket</a>
+              </div>
+            </article>
+            <article class="package-card">
+              <img
+                src="https://storage.googleapis.com/a1aa/image/93c35309-b047-4531-f567-19af3ed52b54.jpg"
+                alt="Paket Snorkeling Raja Ampat"
+                class="package-image"
+              />
+              <div class="package-info">
+                <h3 class="package-name">Eksplorasi Bawah Laut Raja Ampat</h3>
+                <p class="package-duration">5 Hari 4 Malam</p>
+                <p class="package-price">Mulai dari Rp 8.000.000 / orang</p>
+                <ul class="package-features">
+                  <li><i class="fas fa-check-circle"></i> Resort Pilihan</li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Snorkeling & Diving
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Perahu Jelajah Pulau
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Makanan Laut Segar
+                  </li>
+                </ul>
+                <a href="#" class="package-button">Lihat Detail Paket</a>
+              </div>
+            </article>
+          </div>
+          <div class="view-all-packages">
+            <a href="destination.html" class="cta-button"
+              >Lihat Semua Paket Kami</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-info">
+          <h3 class="footer-title">VSTravel</h3>
+          <p class="footer-text">
+            © 2025 VSTravel. All rights reserved. Agen perjalanan terpercaya di
+            Indonesia.
+          </p>
+        </div>
+        <div class="social-icons">
+          <a aria-label="Facebook" href="#">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+          <a aria-label="Twitter" href="#">
+            <i class="fab fa-twitter"> </i>
+          </a>
+          <a aria-label="Instagram" href="#">
+            <i class="fab fa-instagram"> </i>
+          </a>
+          <a aria-label="LinkedIn" href="#">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

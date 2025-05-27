@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title>
+        Destinasi - VSTravel
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a class="logo" href="index.html">
+                VSTravel
+            </a>
+            <nav>
+                <ul class="nav-list desktop-nav">
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="destination.html">
+                            Destinasi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            Tentang Kami
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Kontak
+                        </a>
+                    </li>
+                    <li>
+                        <a href="travel.html">
+                            Travel Sekarang
+                        </a>
+                    </li>
+                </ul>
+                <button aria-label="Toggle navigation menu" class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-bars fa-lg">
+                    </i>
+                </button>
+            </nav>
+        </div>
+        <div class="mobile-menu hidden" id="mobile-menu">
+            <ul class="mobile-nav-list">
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="destination.html">
+                        Destinasi
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        Tentang Kami
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        Kontak
+                    </a>
+                </li>
+                <li>
+                    <a href="travel.html">
+                        Travel Sekarang
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-short-page">
+            <div class="container hero-content-short">
+                <h1 class="hero-title-short">
+                    Temukan Destinasi Impian Anda
+                </h1>
+                <p class="hero-subtitle-short">
+                    Jelajahi berbagai pilihan destinasi menakjubkan yang kami tawarkan, dipilih khusus untuk pengalaman tak terlupakan.
+                </p>
+            </div>
+        </section>
+
+        <section class="intro-destinations container">
+            <h2 class="section-title">
+                Jelajahi Keindahan Nusantara dan Dunia
+            </h2>
+            <p class="intro-text">
+                Di VSTravel, kami percaya setiap perjalanan adalah kisah yang unik. Kami telah mengkurasi daftar destinasi terbaik, mulai dari keindahan alam yang memukau hingga kekayaan budaya yang mendalam. Baik Anda mencari petualangan, relaksasi, atau eksplorasi budaya, temukan tempat sempurna untuk liburan Anda berikutnya di sini.
+            </p>
+        </section>
+
+        <section class="destination-categories container">
+            <h2 class="section-title">
+                Kategori Destinasi Populer
+            </h2>
+            <div class="category-grid">
+                <a href="#pantai-laut" class="category-card">
+                    <i class="fas fa-umbrella-beach category-icon"></i>
+                    <h3>Pantai & Laut</h3>
+                    <p>Keindahan bawah laut dan pantai tropis.</p>
+                </a>
+                <a href="#gunung-alam" class="category-card">
+                    <i class="fas fa-mountain category-icon"></i>
+                    <h3>Gunung & Alam</h3>
+                    <p>Petualangan di pegunungan dan hutan.</p>
+                </a>
+                <a href="#budaya-sejarah" class="category-card">
+                    <i class="fas fa-archway category-icon"></i>
+                    <h3>Budaya & Sejarah</h3>
+                    <p>Menjelajahi warisan dan tradisi lokal.</p>
+                </a>
+                <a href="#kota-modern" class="category-card">
+                    <i class="fas fa-city category-icon"></i>
+                    <h3>Kota Modern</h3>
+                    <p>Gaya hidup perkotaan dan pusat perbelanjaan.</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="all-destinations container">
+            <h2 class="section-title">
+                Semua Destinasi
+            </h2>
+
+            <h3 class="destination-category-heading" id="pantai-laut">
+                <i class="fas fa-waves category-icon-small"></i> Pantai & Laut
+            </h3>
+            <div class="destination-grid">
+                <article class="destination-card">
+                    <img alt="Pantai Kuta Bali" class="destination-image" src="https://storage.googleapis.com/a1aa/image/86f129e1-afc7-4651-7009-b415128a4ae5.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Pantai Kuta</h3>
+                        <p class="destination-location">Bali</p>
+                        <p class="destination-description">Pantai ikonik untuk berselancar dan menikmati matahari terbenam.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Pulau Padar, Labuan Bajo" class="destination-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Padar_Island_Labuan_Bajo.jpg/1280px-Padar_Island_Labuan_Bajo.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Pulau Padar</h3>
+                        <p class="destination-location">Labuan Bajo, NTT</p>
+                        <p class="destination-description">Pemandangan perbukitan dan tiga teluk dengan warna pasir berbeda.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Pink Beach, Komodo" class="destination-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pink_Beach%2C_Komodo_Island%2C_Indonesia.jpg/1280px-Pink_Beach%2C_Komodo_Island%2C_Indonesia.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Pink Beach</h3>
+                        <p class="destination-location">Taman Nasional Komodo, NTT</p>
+                        <p class="destination-description">Pantai berpasir merah muda yang unik, ideal untuk snorkeling.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Raja Ampat" class="destination-image" src="https://storage.googleapis.com/a1aa/image/93c35309-b047-4531-f567-19af3ed52b54.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Raja Ampat</h3>
+                        <p class="destination-location">Papua Barat</p>
+                        <p class="destination-description">Surga menyelam dengan keanekaragaman hayati laut yang luar biasa.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Wakatobi" class="destination-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Wakatobi.jpg/1200px-Wakatobi.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Wakatobi</h3>
+                        <p class="destination-location">Sulawesi Tenggara</p>
+                        <p class="destination-description">Gugusan pulau dengan terumbu karang memukau, ideal untuk diving.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Kepulauan Derawan" class="destination-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Derawan_Islands%2C_East_Kalimantan.jpg/1200px-Derawan_Islands%2C_East_Kalimantan.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Kepulauan Derawan</h3>
+                        <p class="destination-location">Kalimantan Timur</p>
+                        <p class="destination-description">Pulau-pulau cantik dengan penyu dan ubur-ubur tak menyengat.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div
+                </article>
+            </div>
+
+            <h3 class="destination-category-heading" id="gunung-alam">
+                <i class="fas fa-mountain category-icon-small"></i> Gunung & Alam
+            </h3>
+            <div class="destination-grid">
+                <article class="destination-card">
+                    <img alt="Gunung Bromo" class="destination-image" src="https://storage.googleapis.com/a1aa/image/d973dbd6-0989-489d-2faf-701c68def365.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Gunung Bromo</h3>
+                        <p class="destination-location">Jawa Timur</p>
+                        <p class="destination-description">Matahari terbit yang spektakuler di atas lautan pasir.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Danau Toba" class="destination-image" src="https://storage.googleapis.com/a1aa/image/73bbb062-0629-4f61-128d-729d7ed68783.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Danau Toba</h3>
+                        <p class="destination-location">Sumatera Utara</p>
+                        <p class="destination-description">Danau vulkanik terbesar dengan pulau Samosir di tengahnya.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Gunung Rinjani" class="destination-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Mount_Rinjani_crater_lake.jpg/1280px-Mount_Rinjani_crater_lake.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Gunung Rinjani</h3>
+                        <p class="destination-location">Lombok, NTB</p>
+                        <p class="destination-description">Salah satu gunung berapi tertinggi di Indonesia dengan danau kawah yang indah.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Kawah Ijen" class="destination-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Kawah_Ijen_Crater_Lake_and_Blue_Flames.jpg/1280px-Kawah_Ijen_Crater_Lake_and_Blue_Flames.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Kawah Ijen</h3>
+                        <p class="destination-location">Banyuwangi, Jawa Timur</p>
+                        <p class="destination-description">Fenomena 'api biru' yang menakjubkan dan danau kawah belerang.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+            </div>
+
+            <h3 class="destination-category-heading" id="budaya-sejarah">
+                <i class="fas fa-landmark category-icon-small"></i> Budaya & Sejarah
+            </h3>
+            <div class="destination-grid">
+                <article class="destination-card">
+                    <img alt="Candi Borobudur" class="destination-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Borobudur_Sunrise_Indonesia.jpg/1280px-Borobudur_Sunrise_Indonesia.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Candi Borobudur</h3>
+                        <p class="destination-location">Magelang, Jawa Tengah</p>
+                        <p class="destination-description">Candi Buddha terbesar di dunia, warisan UNESCO.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Candi Prambanan" class="destination-image" src="https://storage.googleapis.com/a1aa/image/8a2ba9a9-534e-4591-18e5-6cec7bf4e3e5.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Candi Prambanan</h3>
+                        <p class="destination-location">Yogyakarta</p>
+                        <p class="destination-description">Kompleks candi Hindu terbesar di Indonesia, terkenal dengan arsitekturnya.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Tana Toraja" class="destination-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Tongkonan_traditional_house_in_South_Sulawesi_-_2015-05-13.jpg/1280px-Tongkonan_traditional_house_in_South_Sulawesi_-_2015-05-13.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Tana Toraja</h3>
+                        <p class="destination-location">Sulawesi Selatan</p>
+                        <p class="destination-description">Budaya unik dengan rumah adat Tongkonan dan upacara pemakaman.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Ubud Rice Terraces" class="destination-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Tegallalang_Rice_Terrace%2C_Ubud%2C_Bali.jpg/1280px-Tegallalang_Rice_Terrace%2C_Ubud%2C_Bali.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Ubud</h3>
+                        <p class="destination-location">Bali</p>
+                        <p class="destination-description">Pusat seni dan budaya Bali dengan sawah terasering dan galeri seni.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+            </div>
+
+            <h3 class="destination-category-heading" id="kota-modern">
+                <i class="fas fa-building category-icon-small"></i> Kota Modern
+            </h3>
+            <div class="destination-grid">
+                <article class="destination-card">
+                    <img alt="Skyline Jakarta" class="destination-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Jakarta_Skyline_2020.jpg/1280px-Jakarta_Skyline_2020.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Jakarta</h3>
+                        <p class="destination-location">DKI Jakarta</p>
+                        <p class="destination-description">Ibu kota metropolitan dengan pusat perbelanjaan, kuliner, dan hiburan.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img alt="Gedung Sate Bandung" class="destination-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gedung_Sate_Bandung.jpg/1280px-Gedung_Sate_Bandung.jpg"/>
+                    <div class="destination-info">
+                        <h3 class="destination-name">Bandung</h3>
+                        <p class="destination-location">Jawa Barat</p>
+                        <p class="destination-description">Kota kreatif dengan pusat mode, kuliner, dan wisata alam pegunungan.</p>
+                        <a href="#" class="detail-button">Detail Selengkapnya ></a>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="call-to-action-section">
+            <div class="container">
+                <h2 class="section-title cta-title">
+                    Siap Untuk Petualangan Anda Selanjutnya?
+                </h2>
+                <p class="cta-subtitle">
+                    Jangan tunda lagi! Rencanakan liburan impian Anda bersama VSTravel dan ciptakan kenangan tak terlupakan.
+                </p>
+                <a href="travel.html" class="cta-button">Pesan Sekarang!</a>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">
+                    Pertanyaan Umum Seputar Destinasi
+                </h2>
+                <div class="faq-list"> <div class="faq-item">
+                        <h3 class="faq-question"> Bagaimana cara memilih destinasi yang tepat? <i class="fas fa-chevron-down faq-toggle-icon"></i>
+                        </h3>
+                        <p class="faq-answer hidden"> Pertimbangkan minat Anda (petualangan, relaksasi, budaya), anggaran, waktu perjalanan, dan siapa yang akan bepergian dengan Anda. Anda juga bisa menghubungi tim VSTravel untuk rekomendasi personal!
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question"> Apakah VSTravel menyediakan paket kustom? <i class="fas fa-chevron-down faq-toggle-icon"></i>
+                        </h3>
+                        <p class="faq-answer hidden"> Ya, tentu saja! Kami sangat fleksibel dan dapat merancang paket perjalanan yang disesuaikan sepenuhnya dengan keinginan dan kebutuhan Anda. Hubungi kami untuk konsultasi gratis.
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question"> Apa yang harus saya persiapkan sebelum bepergian? <i class="fas fa-chevron-down faq-toggle-icon"></i>
+                        </h3>
+                        <p class="faq-answer hidden"> Pastikan dokumen perjalanan lengkap, siapkan pakaian yang sesuai dengan cuaca destinasi, bawa obat-obatan pribadi, dan jangan lupa kamera Anda! Kami akan memberikan panduan lebih detail untuk setiap paket.
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question"> Apakah ada diskon untuk perjalanan grup? <i class="fas fa-chevron-down faq-toggle-icon"></i>
+                        </h3>
+                        <p class="faq-answer hidden"> Kami sering memiliki penawaran khusus untuk perjalanan grup. Silakan hubungi tim penjualan kami untuk mendapatkan penawaran terbaik dan penyesuaian paket untuk kelompok Anda.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="travel-tips-section">
+            <div class="container">
+                <h2 class="section-title">
+                    Tips Perjalanan dari VSTravel
+                </h2>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <i class="fas fa-plane-departure tip-icon"></i>
+                        <h3>Pesan Jauh Hari</h3>
+                        <p>Dapatkan harga terbaik dan ketersediaan lebih banyak dengan memesan tiket dan akomodasi jauh sebelum tanggal keberangkatan Anda.</p>
+                    </div>
+                    <div class="tip-card">
+                        <i class="fas fa-wallet tip-icon"></i>
+                        <h3>Siapkan Anggaran</h3>
+                        <p>Buat anggaran rinci untuk transportasi, akomodasi, makanan, aktivitas, dan biaya tak terduga.</p>
+                    </div>
+                    <div class="tip-card">
+                        <i class="fas fa-camera-retro tip-icon"></i>
+                        <h3>Abadikan Momen</h3>
+                        <p>Jangan lupa membawa kamera dan power bank. Kenangan adalah harta tak ternilai dari setiap perjalanan.</p>
+                    </div>
+                    <div class="tip-card">
+                        <i class="fas fa-map-marked-alt tip-icon"></i>
+                        <h3>Rencanakan Itinerary</h3>
+                        <p>Buat rencana perjalanan yang fleksibel, tapi biarkan ruang untuk spontanitas dan eksplorasi tak terduga.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3 class="footer-title">
+                    VSTravel
+                </h3>
+                <p class="footer-text">
+                    © 2024 VSTravel. All rights reserved. Agen perjalanan terpercaya di Indonesia.
+                </p>
+            </div>
+            <div class="social-icons">
+                <a aria-label="Facebook" href="#">
+                    <i class="fab fa-facebook-f">
+                    </i>
+                </a>
+                <a aria-label="Twitter" href="#">
+                    <i class="fab fa-twitter">
+                    </i>
+                </a>
+                <a aria-label="Instagram" href="#">
+                    <i class="fab fa-instagram">
+                    </i>
+                </a>
+                <a aria-label="LinkedIn" href="#">
+                    <i class="fab fa-linkedin-in">
+                    </i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
